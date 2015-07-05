@@ -95,6 +95,7 @@
     <string name="nx_show_ripple_summary">Эффект волны при касании</string>
     <string name="nx_show_pulse_title">Показывать пульсацию</string>
     <string name="nx_show_pulse_summary">Визуализация панели NX, когда играет музыка</string>
+    <string name="fling_pulse_color">Цвет пульсации</string>
     <string name="nx_longpress_timeout_label_left">Малая задержка</string>
     <string name="nx_longpress_timeout_label_right">Большая задержка</string>
     <string name="nx_longpress_title">Задержка долгого нажатия</string>
