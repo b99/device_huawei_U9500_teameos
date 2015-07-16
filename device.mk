@@ -95,6 +95,9 @@ PRODUCT_PACKAGES += \
     e2fsck \
     com.android.future.usb.accessory
 
+PRODUCT_PACKAGES += \
+    CMFileManager
+
 # Network tools
 PRODUCT_PACKAGES += \
     libpcap \
