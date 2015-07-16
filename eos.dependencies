@@ -1,0 +1,32 @@
+[
+    {
+        "remote": "github",
+        "repository": "ShevT/android_kernel_d1_p1",
+        "revision": "cm-12.1",
+        "target_path": "kernel/huawei/front"
+    },
+    {
+        "remote": "github",
+        "repository": "ShevT/vendor_huawei_U9500",
+        "revision": "cm-12.1",
+        "target_path": "vendor/huawei/front"
+    },
+    {
+        "remote": "github",
+        "repository": "CyanogenMod/android_hardware_ti_omap4",
+        "revision": "cm-12.1",
+        "target_path": "hardware/ti/omap4"
+    },
+    {
+        "remote": "github",
+        "repository": "CyanogenMod/android_packages_apps_CMFileManager",
+        "revision": "cm-12.1",
+        "target_path": "packages/apps/CMFileManager"
+    },
+    {
+        "remote": "github",
+        "repository": "CyanogenMod/android_external_libtruezip",
+        "revision": "cm-12.1",
+        "target_path": "external/libtruezip"
+    }
+]
