@@ -1,0 +1,14 @@
+
+project system/core/
+diff --git a/system/core/rootdir/init.rc b/system/core/rootdir/init.rc
+index d3c9e08..10f161d 100644
+--- a/system/core/rootdir/init.rc
++++ b/system/core/rootdir/init.rc
+@@ -117,6 +117,7 @@ loglevel 3
+     mkdir /dev/cpuctl
+     mount cgroup none /dev/cpuctl cpu
+     chown system system /dev/cpuctl
++    chmod 0660 /dev/cpuctl
+     chown system system /dev/cpuctl/tasks
+     chmod 0660 /dev/cpuctl/tasks
+     write /dev/cpuctl/cpu.shares 1024

@@ -1,0 +1,66 @@
+
+project frameworks/base/
+diff --git a/frameworks/base/packages/SystemUI/res/layout/status_bar_expanded_header.xml b/frameworks/base/packages/SystemUI/res/layout/status_bar_expanded_header.xml
+index 446663f..c83ee89 100644
+--- a/frameworks/base/packages/SystemUI/res/layout/status_bar_expanded_header.xml
++++ b/frameworks/base/packages/SystemUI/res/layout/status_bar_expanded_header.xml
+@@ -19,9 +19,9 @@
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui"
+     android:id="@+id/header"
+-    android:layout_width="match_parent"
++    android:layout_width="fill_parent"
+     android:layout_height="@dimen/notification_panel_header_height"
+-    android:background="@drawable/notification_header_bg"
++    android:background="#ff000000"
+     android:orientation="horizontal"
+     android:gravity="center_vertical"
+     android:baselineAligned="false"
+diff --git a/frameworks/base/packages/SystemUI/res/values/config.xml b/frameworks/base/packages/SystemUI/res/values/config.xml
+index 3869db3..b649438 100644
+--- a/frameworks/base/packages/SystemUI/res/values/config.xml
++++ b/frameworks/base/packages/SystemUI/res/values/config.xml
+@@ -79,7 +79,7 @@
+     <integer name="config_recent_item_min_alpha">3</integer>
+ 
+     <!-- The number of columns in the QuickSettings -->
+-    <integer name="quick_settings_num_columns">3</integer>
++    <integer name="quick_settings_num_columns">4</integer>
+ 
+     <!-- The number of columns that the top level tiles span in the QuickSettings -->
+     <integer name="quick_settings_user_time_settings_tile_span">1</integer>
+diff --git a/frameworks/base/packages/SystemUI/res/values/dimens.xml b/frameworks/base/packages/SystemUI/res/values/dimens.xml
+index ec2c51a..96af439 100644
+--- a/frameworks/base/packages/SystemUI/res/values/dimens.xml
++++ b/frameworks/base/packages/SystemUI/res/values/dimens.xml
+@@ -160,7 +160,7 @@
+     <dimen name="close_handle_underlap">32dp</dimen>
+ 
+     <!-- Height of the notification panel header bar -->
+-    <dimen name="notification_panel_header_height">48dp</dimen>
++    <dimen name="notification_panel_header_height">60dp</dimen>
+ 
+     <!-- Extra space above the panel -->
+     <dimen name="notification_panel_padding_top">0dp</dimen>
+@@ -192,7 +192,7 @@
+     <dimen name="one_finger_pop_limit">32dp</dimen>
+ 
+     <!-- The fixed height of each tile -->
+-    <dimen name="quick_settings_cell_height">110dp</dimen>
++    <dimen name="quick_settings_cell_height">100dp</dimen>
+ 
+     <!-- The padding between each tile within the QuickSettings layout -->
+     <dimen name="quick_settings_cell_gap">4dp</dimen>
+diff --git a/frameworks/base/packages/SystemUI/res/values/styles.xml b/frameworks/base/packages/SystemUI/res/values/styles.xml
+index d9a33af..85cec98 100644
+--- a/frameworks/base/packages/SystemUI/res/values/styles.xml
++++ b/frameworks/base/packages/SystemUI/res/values/styles.xml
+@@ -93,7 +93,7 @@
+     <style name="TextAppearance.QuickSettings" />
+ 
+     <style name="TextAppearance.QuickSettings.TileView">
+-        <item name="android:textSize">12dp</item>
++        <item name="android:textSize">9dp</item>
+         <item name="android:textStyle">normal</item>
+         <item name="android:textColor">#CCCCCC</item>
+         <item name="android:textAllCaps">true</item>

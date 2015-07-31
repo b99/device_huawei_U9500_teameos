@@ -1,0 +1,24 @@
+
+project packages/apps/Settings/
+diff --git a/packages/apps/Settings/res/xml/settings_headers.xml b/packages/apps/Settings/res/xml/settings_headers.xml
+index 4d54ece..4dad121 100644
+--- a/packages/apps/Settings/res/xml/settings_headers.xml
++++ b/packages/apps/Settings/res/xml/settings_headers.xml
+@@ -260,17 +260,6 @@
+         android:icon="@*android:drawable/ic_print"
+         android:title="@string/print_settings" />
+ 
+-    <!-- Weather -->
+-    <header
+-        android:id="@+id/weather_settings"
+-        android:icon="@drawable/ic_settings_weather"
+-        android:title="@string/cfx_weather_settings" >
+-        <intent
+-            android:action="android.intent.action.MAIN"
+-            android:targetClass="org.codefirex.cfxweather.WeatherActivity"
+-            android:targetPackage="org.codefirex.cfxweather" />
+-    </header>
+-
+ <!-- Development -->
+     <header
+         android:id="@+id/development_settings"
