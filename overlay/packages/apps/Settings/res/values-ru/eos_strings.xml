@@ -54,7 +54,7 @@
 
     <!-- Fling -->
     <string name="fling_settings">Настройки \"Ползунка\"</string>
-    <string name="nx_interface">Интерфейс жестов \"Ползунка\"</string>
+    <string name="nx_interface">Интерфейс \"Ползунка\"</string>
     <string name="nx_enable_title">Включить \"Ползунок\"</string>
     <string name="nx_back_home_policy">«Назад» и «Домой» должны быть всегда. Для изменения «Назад» и «Домой» установите их назначения первыми</string>
     <string name="nx_split_bar_policy">Когда назначаются только правые и левые действия, то они будут применены ко всей панели</string>
@@ -199,8 +199,8 @@
 
     <!-- Doze notification color invert -->
     <string name="doze_notification_color_invert_title">Инверсия цвета</string>
-    <string name="doze_notification_color_invert_summary_off">Ambient display notifications will not be inverted. Use for dark themes.</string>
-    <string name="doze_notification_color_invert_summary_on">Ambient display notifications will show as inverted. Use for light/default theme.</string>
+    <string name="doze_notification_color_invert_summary_off">Окружение уведомлений не будет инвертироваться. Использовать для тёмных тем оформления.</string>
+    <string name="doze_notification_color_invert_summary_on">Окружение уведомлений будут инвертироваться. Использовать для светлых/по умолчанию тем оформления.</string>
 
     <!-- Task Manager in Notification Panel -->
     <string name="status_bar_show_task_manager_title">Показывать менеджер задач</string>
@@ -212,4 +212,5 @@
 
     <!-- Misc -->
     <string name="profile_action_system">По умолчанию (системн.)</string>
+    <string name="power_menu_screenrecord_title">Запись экрана</string>
 </resources>
