@@ -39,4 +39,7 @@
     <string name="pie_phone_status_no_service">Вне зоны обслуживания</string>
     <string name="pie_phone_status_airplane_mode">Включен режим полета</string>
     <string name="pie_phone_status_emergency_only">Только экстренные вызовы</string>
+
+    <!-- Battery Saver Dimss -->
+    <string name="battery_saver_dismiss_title">Отклонить</string>
 </resources>
