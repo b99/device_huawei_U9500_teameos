@@ -17,14 +17,11 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <string-array name="systemui_navbar_mode_entries">
-        <item>Панель навигации</item>
-        <item>Интерфейс жестов NX</item>
-    </string-array>
-
-    <string-array name="systemui_navbar_mode_settings">
-        <item>Настройки панели навигации</item>
-        <item>Настройки NX</item>
+    <!-- QS Tiles Columns -->
+    <string-array name="qs_num_columns_entries">
+        <item>Три</item>
+        <item>Четыре</item>
+        <item>Пять</item>
     </string-array>
 
 </resources>

@@ -24,6 +24,7 @@
     <string name="navbar_mode">Режим навигации</string>
     <string name="navigationbar_settings_title">Панель навигации</string>
     <string name="aosp_navigation_bar">Панель навигации</string>
+    <string name="aosp_navigation_bar_settings">Настройки панели навигации</string>
     <string name="navigationbar_settings_summary">Настройка стиля и поведения навигации</string>
     <string name="navbar_general_title">Расширенные</string>
     <string name="navigation_bar_left_title">Режим левши</string>
@@ -38,14 +39,9 @@
     <string name="action_entry_default_action">По умолчанию</string>
     <string name="action_entry_select_app">Выбрать приложение</string>
     <string name="action_entry_custom_action">Выбрать действие</string>
+    <string name="action_value_default_action">Действие по умолчанию</string>
 
     <!-- Softkeys -->
-    <string name="interface_navigation">Навигация</string>
-    <string name="interface_navbar">Панель навигации</string>
-    <string name="interface_navbar_appearance">Вид панели навигации</string>
-    <string name="softkey_settings_title">Программные клавиши</string>
-    <string name="softkey_settings_summary">Действия при долгом нажатии</string>
-    <string name="style_navbar_softkey">Панель навигации и программные клавиши</string>
     <string name="softkey_longpress_title">Действия при долгом нажатии</string>
     <string name="softkey_longpress_summary">Установить действие при долгом нажатии</string>
     <string name="softkey_back">Назад</string>
@@ -56,10 +52,10 @@
     <string name="softkey_persist_menu_title">Всегда показывать кнопку меню</string>
     <string name="softkey_persist_menu_summary">Кнопка меню всегда будет отображаться, исключая экран блокировки</string>
 
-    <!-- NX -->
-    <string name="nx_interface">Интерфейс NX жестов</string>
-    <string name="nx_enable_title">Включить NX</string>
-    <string name="nx_disabled_notice">Панель навигации будет умной, быстрой, и настраиваемой на выполнение жестов.</string>
+    <!-- Fling -->
+    <string name="fling_settings">Настройки \"Ползунка\"</string>
+    <string name="nx_interface">Интерфейс жестов \"Ползунка\"</string>
+    <string name="nx_enable_title">Включить \"Ползунок\"</string>
     <string name="nx_back_home_policy">«Назад» и «Домой» должны быть всегда. Для изменения «Назад» и «Домой» установите их назначения первыми</string>
     <string name="nx_split_bar_policy">Когда назначаются только правые и левые действия, то они будут применены ко всей панели</string>
     <string name="nx_def_summary">Нет действия</string>
@@ -84,18 +80,24 @@
     <string name="long_swipe_reset">Сброс</string>
     <string name="nx_advanced">Расширенные</string>
     <string name="nx_long_swipe_title">Уровень длинного сдвига</string>
-    <string name="nx_long_swipe_summary">Тонкая настройка порогов длинного сдвига, основанная на процентном отношении высоты или длинны интерфейса NX</string>
-    <string name="nx_trails_enable_title">Enable gesture trails</string>
+    <string name="nx_long_swipe_summary">Тонкая настройка порогов длинного сдвига, основанная на процентном отношении высоты или длинны интерфейса \"Ползунка\"</string>
+    <string name="fling_trails_enable_title">Показывать след жеста</string>
+    <string name="fling_trails_enable_summary">Показывать след при выполнении жеста</string>
+    <string name="fling_trails_color_title">Цвет следа</string>
+    <string name="nx_trails_enable_title">Показывать след жеста</string>
     <string name="nx_appearance">Внешний вид</string>
-    <string name="nx_show_logo_title">Показать NX логотип</string>
+    <string name="nx_show_logo_title">Показать логотип \"Ползунка\"</string>
     <string name="nx_animate_logo_title">Анимация логотипа</string>
     <string name="nx_animate_logo_summary">Анимация логотипа при касаниях</string>
     <string name="nx_logo_color">Цвет логотипа</string>
     <string name="nx_show_ripple_title">Показывать волну</string>
     <string name="nx_show_ripple_summary">Эффект волны при касании</string>
+    <string name="fling_ripple_color">Цвет волны</string>
     <string name="nx_show_pulse_title">Показывать пульсацию</string>
-    <string name="nx_show_pulse_summary">Визуализация панели NX, когда играет музыка</string>
+    <string name="nx_show_pulse_summary">Визуализация панели \"Ползунка\", когда играет музыка</string>
     <string name="fling_pulse_color">Цвет пульсации</string>
+    <string name="eos_fling_lavalamp_title">Включить эффект лавы</string>
+    <string name="eos_fling_lavalamp_summary">Гладкое смешивание цвета импульса, подобный лаве</string>
     <string name="nx_longpress_timeout_label_left">Малая задержка</string>
     <string name="nx_longpress_timeout_label_right">Большая задержка</string>
     <string name="nx_longpress_title">Задержка долгого нажатия</string>
@@ -109,7 +111,7 @@
     <string name="hardware_keys_back_key_title">Кнопка «Назад»</string>
     <string name="hardware_keys_double_tap_summary">Действие при двойном нажатии</string>
     <string name="hardware_keys_single_tap_summary">Действие при одиночном нажатии</string>
-    <string name="hardware_keys_single_tap_title">Действие обиночного нажатия</string>
+    <string name="hardware_keys_single_tap_title">Действие одиночного нажатия</string>
     <string name="volbtn_music_controls_title">Управление плеером</string>
     <string name="volbtn_music_controls_summary">Переключать треки долгим нажатием кнопок громкости при выключенном экране</string>
     <string name="swap_volume_buttons_title">Автоповорот</string>
@@ -117,8 +119,8 @@
 
     <!-- TEMP: follow up later -->
     <string name="auto_brightness_reset_button">Сброс</string>
-    <string name="mod_version">Проект TeamEos</string>
-    <string name="system_update_settings_list_item_title">Обновления Eos</string>
+    <string name="eos_mod_version">Проект TeamEos</string>
+    <string name="eos_update_settings_list_item_title">Обновления Eos</string>
 
     <!-- Navbar height -->
     <string name="navigation_bar_size_title">Размер панели</string>
@@ -138,15 +140,15 @@
     <string name="volume_steps_voice_call_title">Шагов громкости: Голосовой вызов</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title"><b>Сетевой траффик</b></string>
-    <string name="network_traffic_summary">Настройка индикатора сетевого траффика</string>
+    <string name="network_traffic_title"><b>Сетевой трафик</b></string>
+    <string name="network_traffic_summary">Настройка индикатора сетевого трафика</string>
     <string name="show_network_traffic_state">Монитор трафика в строке состояния</string>
     <string name="show_network_traffic_disable">Выключен</string>
     <string name="show_network_traffic_meter">Уровень</string>
     <string name="show_network_traffic_text">Текст</string>
     <string name="show_network_traffic_both">Оба</string>
-    <string name="show_network_traffic_display">Показ траффика в строке статуса</string>
-    <string name="show_network_traffic_monitor">Мониторинг траффика в строке состояния</string>
+    <string name="show_network_traffic_display">Показ трафика в строке статуса</string>
+    <string name="show_network_traffic_monitor">Мониторинг трафика в строке состояния</string>
     <string name="show_network_traffic_unit">Единицы измерения</string>
     <string name="show_network_traffic_frequency">Интервал обновления</string>
     <string name="show_network_traffic_up">Исходящий</string>
@@ -165,11 +167,49 @@
     <string name="network_traffic_autohide_threshold">Порог неактивности</string>
     <string name="network_traffic_color_style">Стиль цвета</string>
     <string name="network_traffic_color_reset">Сброс цвета</string>
-    <string name="network_traffic_color_reset_message">Сбросить цвета траффика сети по умолчанию?</string>
+    <string name="network_traffic_color_reset_message">Сбросить цвета трафика сети по умолчанию?</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Выбор цвета</string>
     <string name="press_color_to_apply">Нажмите на цвет, чтобы применить</string>
-    <string name="set">Задать</string>
+    <string name="set">Установить</string>
     <string name="color_default">По умолчанию</string>
+
+    <!-- Status bar temperature -->
+    <string name="status_bar_temperature_title">Температура воздуха</string>
+    <string name="status_bar_temperature_hidden">Не показывать</string>
+    <string name="status_bar_temperature_show_scale">Показывать с единицами измерения</string>
+    <string name="status_bar_temperature_hide_scale">Показывать без единиц измерения</string>
+
+    <!-- QS Tiles Columns -->
+    <string name="qs_num_columns_title">Количество плиток в ряду</string>
+    <string name="qs_num_columns_showing">Установлено %1$s плитки в ряду</string>
+
+    <!-- Clear all recents button location -->
+    <string name="show_clear_all_recents_button_title">Кнопка \"Очистить всё\"</string>
+    <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить всё\"</string>
+    <string name="recents_clear_all_location_top_right">Вверху справа</string>
+    <string name="recents_clear_all_location_top_left">Вверху слева</string>
+    <string name="recents_clear_all_location_bottom_right">Внизу справа</string>
+    <string name="recents_clear_all_location_bottom_left">Внизу слева</string>
+
+    <!-- Double tap gesture anywhere on the lock screen put device to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Двойное касание уводит в сон</string>
+    <string name="double_tap_sleep_anywhere_summary">Двойное касание на экране блокировки уводит устройство в сон</string>
+
+    <!-- Doze notification color invert -->
+    <string name="doze_notification_color_invert_title">Инверсия цвета</string>
+    <string name="doze_notification_color_invert_summary_off">Ambient display notifications will not be inverted. Use for dark themes.</string>
+    <string name="doze_notification_color_invert_summary_on">Ambient display notifications will show as inverted. Use for light/default theme.</string>
+
+    <!-- Task Manager in Notification Panel -->
+    <string name="status_bar_show_task_manager_title">Показывать менеджер задач</string>
+    <string name="status_bar_show_task_manager_summary">Переключает вид между быстрыми настройками и менеджером задач</string>
+
+    <!-- Enable power menu -->
+    <string name="lockscreen_enable_power_menu_title">Разрешить показ меню питания</string>
+    <string name="lockscreen_enable_power_menu_summary">Показывать меню кнопки питания, если экран заблокирован</string>
+
+    <!-- Misc -->
+    <string name="profile_action_system">По умолчанию (системн.)</string>
 </resources>
