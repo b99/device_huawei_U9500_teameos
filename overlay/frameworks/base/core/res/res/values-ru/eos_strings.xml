@@ -42,4 +42,6 @@
     <!-- Error message if user want to try to disable all navigation options -->
     <string name="disable_navigation_pie_error">Нельзя отключить панель навигации, поскольку не включено иной навигации. Сначала включите SlimPie.</string>
 
+    <!-- screenrecord in the power menu -->
+    <string name="powermenu_screenrecord">Запись экрана</string>
 </resources>
