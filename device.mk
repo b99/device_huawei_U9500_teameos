@@ -149,14 +149,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/eos/prebuilt/common/bootanimation/720.zip:system/media/bootanimation.zip
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.setupwizard.enable_bypass=1 \
-    persist.adb.notify=0 \
-    persist.call_recording.enabled=1
-
 # adb has root
 ADDITIONAL_DEFAULT_PROPERTIES += \
     ro.adb.secure=0 \
+    persist.adb.notify=0 \
     ro.secure=0 \
     ro.allow.mock.location=1 \
     persist.sys.root_access=3 \
