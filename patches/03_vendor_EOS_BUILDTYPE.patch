@@ -1,10 +1,10 @@
 
 project vendor/eos/
 diff --git a/vendor/eos/config/common.mk b/vendor/eos/config/common.mk
-index 120daa4..d8235ac 100644
+index 3af41dc..d7d32d0 100644
 --- a/vendor/eos/config/common.mk
 +++ b/vendor/eos/config/common.mk
-@@ -251,7 +251,7 @@ ifdef EOS_BUILDTYPE
+@@ -222,7 +222,7 @@ ifdef EOS_BUILDTYPE
      endif
  else
      # If EOS_BUILDTYPE is not defined, set to UNOFFICIAL
