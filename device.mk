@@ -150,14 +150,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/eos/prebuilt/common/bootanimation/720.zip:system/media/bootanimation.zip
 
-# adb has root
 ADDITIONAL_DEFAULT_PROPERTIES += \
-    ro.adb.secure=0 \
-    persist.adb.notify=0 \
-    ro.secure=0 \
     ro.allow.mock.location=1 \
-    persist.sys.root_access=3 \
-    ro.debuggable=1 \
     persist.sys.usb.config=mtp \
     ro.selinux=permissive
 
