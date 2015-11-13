@@ -1,0 +1,29 @@
+
+project vendor/eos/
+diff --git a/vendor/eos/config/common_full.mk b/vendor/eos/config/common_full.mk
+index a1f301b..eaa22b0 100644
+--- a/vendor/eos/config/common_full.mk
++++ b/vendor/eos/config/common_full.mk
+@@ -3,22 +3,11 @@ $(call inherit-product, vendor/eos/config/common.mk)
+ 
+ # Optional Eos packages
+ PRODUCT_PACKAGES += \
+-    Galaxy4 \
+-    HoloSpiralWallpaper \
+-    LiveWallpapers \
+-    LiveWallpapersPicker \
+-    MagicSmokeWallpapers \
+-    NoiseField \
+-    PhaseBeam \
+-    VisualizationWallpapers \
+-    PhotoTable \
+     SoundRecorder \
+-    PhotoPhase \
+     CMSettingsProvider
+ 
+ # Extra tools in Eos
+ PRODUCT_PACKAGES += \
+-    vim \
+     zip \
+     unrar \
+     curl
