@@ -66,8 +66,8 @@ PRODUCT_COPY_FILES += \
     $(COMMON_FOLDER)/configs/media_profiles.xml:system/etc/media_profiles.xml \
     $(COMMON_FOLDER)/configs/media_codecs.xml:system/etc/media_codecs.xml \
     $(COMMON_FOLDER)/configs/audio/audio_policy.conf:system/etc/audio_policy.conf \
-    $(COMMON_FOLDER)/configs/audio/cm_front_audio_config.conf:system/etc/huawei/audio/eos_front_audio_config.conf \
-    $(COMMON_FOLDER)/configs/audio/cm_front_audio_config.conf:system/etc/huawei/audio/aosp_front_audio_config.conf \
+    $(COMMON_FOLDER)/configs/audio/front_audio_config.conf:system/etc/huawei/audio/eos_front_audio_config.conf \
+    $(COMMON_FOLDER)/configs/audio/front_audio_config.conf:system/etc/huawei/audio/aosp_front_audio_config.conf \
     $(COMMON_FOLDER)/configs/audio/front_audio_config.conf:system/etc/huawei/audio/front_audio_config.conf \
     $(COMMON_FOLDER)/configs/audio/front_factory_audio_config.conf:system/etc/huawei/audio/front_factory_audio_config.conf
 
