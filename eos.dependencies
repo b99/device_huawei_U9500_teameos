@@ -14,7 +14,7 @@
     {
         "remote": "github",
         "repository": "ShevT/android_kernel_d1_p1",
-        "revision": "cm-12.1",
+        "revision": "cm-13.0",
         "target_path": "kernel/huawei/front"
     },
     {
