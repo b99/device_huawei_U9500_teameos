@@ -98,6 +98,10 @@ PRODUCT_PACKAGES += \
     optimizedb \
     optimizestorage
 
+# Post init script
+PRODUCT_PACKAGES += \
+    post-init.sh
+
 PRODUCT_PACKAGES += \
     CMFileManager
 
