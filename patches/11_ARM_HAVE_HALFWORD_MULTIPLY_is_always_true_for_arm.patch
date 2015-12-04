@@ -1,11 +1,11 @@
 
 project frameworks/av/
 diff --git a/frameworks/av/services/audioflinger/AudioResampler.cpp b/frameworks/av/services/audioflinger/AudioResampler.cpp
-index 1f7a613..46e3d6c 100644
+index 0f4eaa5..5875e08 100644
 --- a/frameworks/av/services/audioflinger/AudioResampler.cpp
 +++ b/frameworks/av/services/audioflinger/AudioResampler.cpp
-@@ -29,14 +29,11 @@
- #include "AudioResamplerDyn.h"
+@@ -33,14 +33,11 @@
+ #endif
  
  #ifdef __arm__
 -#include <machine/cpu-features.h>
